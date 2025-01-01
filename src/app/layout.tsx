@@ -27,17 +27,9 @@ import 'react-loading-skeleton/dist/skeleton.css'
 export const MyApp = ({ children }: { children: React.ReactNode }) => {
   const theme = ThemeSettings();
 
-  //*router hook
-  const router = useRouter();
-  //*pathname hook
-  const pathname=usePathname()
 
-  //*stay loggedin on reload
-  const dispatch = useDispatch();
-  useLayoutEffect(() => {
-    //custom middleware function
-    refreshAuthentication(dispatch,router,pathname);
-  }, []);
+
+
   return (
     <>
       <NextAppDirEmotionCacheProvider options={{ key: "modernize" }}>

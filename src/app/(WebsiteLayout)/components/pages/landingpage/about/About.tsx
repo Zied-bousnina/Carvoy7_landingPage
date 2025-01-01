@@ -1,10 +1,8 @@
-import { Avatar, CardContent, Grid, Typography } from "@mui/material";
+import { Avatar, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import { Icon } from "@iconify/react";
-import ReactPlayer from "react-player/youtube";
-import Image from "next/image";
-import Card from "@mui/material/Card";
+
 import AnimateFadeIn from "../../../shared/animation/Animation";
 
 const About = () => {
