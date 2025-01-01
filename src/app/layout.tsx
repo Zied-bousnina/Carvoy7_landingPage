@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Xgenbox</title>
+        <title>CarVoy7</title>
       </head>
       <body>
         <ToastContainer />

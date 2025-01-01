@@ -18,24 +18,24 @@ export default function Logo() {
       <LinkStyled href="/" >
         {customizer.activeMode === "dark" ? (
           <Image
-            src="/images/logos/xgenbox-logo-white.png"
+            src="/images/svgs/logo-c-white.svg"
             alt="logo"
             height={customizer.TopbarHeight}
-            width={200}
+            width={75}
             priority
           />
         ) : (
           <Image
-            src={"/images/logos/xgenbox-logo-green.png"}
+            src={"/images/svgs/logo_carvoy.svg"}
             alt="logo"
             height={customizer.TopbarHeight}
-            width={200}
+            width={75}
             priority
           />
         )}
       </LinkStyled>
     );
-  
+
 
   // return (
   //   <LinkStyled href="/">

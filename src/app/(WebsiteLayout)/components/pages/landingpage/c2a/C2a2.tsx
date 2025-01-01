@@ -27,9 +27,8 @@ const C2a2 = () => {
     <Box
       sx={{
         borderRadius: 0,
-        backgroundColor: (theme) => theme.palette.background.paper, paddingTop: {
-          lg: "80px"
-        }
+        backgroundColor: (theme) => theme.palette.background.paper,
+        paddingTop: { lg: "80px" },
       }}
       pt={4}
     >
@@ -40,7 +39,6 @@ const C2a2 = () => {
               customizer.activeMode == "dark"
                 ? "background.default"
                 : (theme) => theme.palette.text.primary,
-            
           }}
           p={4}
           position="relative"
@@ -66,7 +64,7 @@ const C2a2 = () => {
                   },
                 }}
               >
-                Haven&apos;t found an answer to your question?
+                Vous avez des questions sur Carvoy7 ?
               </Typography>
 
               <Typography
@@ -84,10 +82,9 @@ const C2a2 = () => {
                       : (theme) => theme.palette.background.paper,
                 }}
               >
-                <Avatar src="/images/landingpage/icon-certificate.svg" /> 
-                Contact us today to find out how our solution will reduce your waste collection costs
-
-</Typography>
+                <Avatar src="/images/landingpage/icon-certificate.svg" />
+                Contactez-nous dès aujourd'hui pour découvrir comment notre solution simplifie vos besoins de convoyage automobile.
+              </Typography>
 
               <Stack direction={{ xs: "column", sm: "row" }} spacing={3} mt={3}>
                 <StyledButton
@@ -95,9 +92,8 @@ const C2a2 = () => {
                   color="primary"
                   size="large"
                 >
-                  Contact Us
+                  Nous Contacter
                 </StyledButton>
-
               </Stack>
             </Grid>
             {lgUp ? (
@@ -111,7 +107,7 @@ const C2a2 = () => {
                     right: "-20px",
                   }}
                 >
-                  <Image src={c2aImg} alt="img" />
+                  <Image src={c2aImg} alt="Carvo7" />
                 </Box>
               </Grid>
             ) : (

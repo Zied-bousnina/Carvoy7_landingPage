@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import { Box } from "@mui/system";
 import { IconChevronDown } from "@tabler/icons-react";
 import AnimateFadeIn from "../../../shared/animation/Animation";
+
 const Questions = () => {
   interface faq {
     question: string;
@@ -14,75 +15,73 @@ const Questions = () => {
   }
   const FAQ: faq[] = [
     {
-      question: "What are the benefits of using XGENBOX's waste bin ?",
+      question: "Qu'est-ce que Carvoy7 et comment ça fonctionne ?",
       answers: [
-        "Data on waste volume and collection history",
-        "Elimination of arbitrary waste collections",
-        "Ability to identify high waste production areas for optimal bin placement",
-        "Savings on waste management expenses",
-        "Clean and hygienic public spaces with less waste overflow, pests, and odors",
-        "Electricity savings through the use of solar energy",
-        "Reduction of waste truck collections resulting in a reduction in fuel emissions, traffic congestion, and noise",
-        "Revenue generated from advertising.",
+        "Carvoy7 est une plateforme de convoyage numérique qui connecte les clients avec des convoyeurs professionnels pour le transport de véhicules.",
+        "Grâce à notre plateforme, vous pouvez planifier, suivre et gérer le transfert de véhicules de manière efficace et sécurisée.",
       ],
     },
     {
-      question: "How does it communicate ?",
+      question: "Qui peut bénéficier des services de Carvoy7 ?",
       answers: [
-        "3G telecommunication is used to send and receive signals from the bin. All data is collected and organized so that end users can optimize operations. A hosted server allows our units to have access anywhere in the world.",
+        "Les particuliers souhaitant transférer leurs véhicules.",
+        "Les entreprises de location de voitures gérant les livraisons de flotte.",
+        "Les concessionnaires automobiles organisant les livraisons aux clients.",
+        "Les entreprises ayant besoin de transferts de véhicules inter-villes ou internationaux.",
       ],
     },
     {
-      question: "What are the ideal places for installation ?",
+      question: "Comment réserver un service de convoyage ?",
       answers: [
-        "Connected trash cans are ideal for highly trafficked areas where overflowing waste is common, such as a city's business districts, university campuses, shopping centers, tourist attractions, sports stadiums, etc.",
+        "Inscrivez-vous simplement sur la plateforme Carvoy7, entrez les informations de votre véhicule, précisez les lieux de prise en charge et de livraison, et sélectionnez un convoyeur professionnel parmi notre réseau.",
       ],
     },
     {
-      question: "What about indoor locations ?",
+      question: "Comment est calculé le coût d’un convoyage ?",
       answers: [
-        "In addition to the solar-powered model, we also offer a hybrid model that uses both solar and AC energy. Once plugged in, there is no limit to its energy consumption. Installation sites include airports, shopping centers, transit stations, etc.",
+        "Le coût dépend de plusieurs facteurs tels que la distance, le type de véhicule et l'urgence de la livraison. Notre plateforme offre des prix transparents basés sur vos besoins.",
       ],
     },
     {
-      question: "How long does it take to fully charge ?",
+      question: "Quelles sont les mesures de sécurité offertes par Carvoy7 ?",
       answers: [
-        "On average, 2 to 3 days of 4 hours of sunlight are needed to fully recharge the device.",
+        "Tous les convoyeurs sont soigneusement vérifiés et certifiés.",
+        "Un suivi en temps réel permet de surveiller votre véhicule pendant le transport.",
+        "Des options d'assurance sont disponibles pour une protection supplémentaire.",
       ],
     },
     {
-      question: "What happens if it's cloudy for several days ?",
+      question: "Puis-je suivre mon véhicule pendant le convoyage ?",
       answers: [
-        "When fully charged, the trash can operate for up to 4 weeks on battery. Results may vary depending on the frequency of compaction and strength of the telecommunications signal, and the use of optional features (i.e. a Wi-Fi router, etc.).",
+        "Oui, Carvoy7 offre un suivi en temps réel via la plateforme, vous permettant de connaître la localisation de votre véhicule et l'heure estimée d'arrivée.",
       ],
     },
     {
-      question:
-        "Quelle est la durée de vie de la poubelle connectées et des pièces de rechange ?",
+      question: "Que se passe-t-il en cas de retard ou de problème pendant le convoyage ?",
       answers: [
-        "En général, la durée de vie varie de 7 à 8 ans et la batterie dure généralement 3 à 4 ans. Les résultats peuvent varier en fonction de l'utilisation, des conditions environnementales et de l'entretien.",
+        "L'équipe d'assistance Carvoy7 est disponible 24h/24 et 7j/7 pour résoudre tout problème ou retard. Nos convoyeurs sont formés pour gérer les imprévus de manière professionnelle.",
       ],
     },
     {
-      question:
-        "Y a-t-il des risques de vandalisme, de vol et de dégradation en général ?",
+      question: "Proposez-vous des options de convoyage international ?",
       answers: [
-        "Lors de l'installation, le châssis est généralement boulonné au sol dans les espaces publics. Il est également installé avec un GPS afin que les utilisateurs puissent surveiller son emplacement. Pour les pièces sensibles au vandalisme, à la corrosion ou aux pannes, nous utilisons des vis antivol et des matériaux résistants à la trempe tels que des couvercles en acier inoxydable et en polycarbonate.​",
+        "Oui, Carvoy7 prend en charge les transferts internationaux de véhicules, en assurant la conformité avec les réglementations douanières et transfrontalières.",
       ],
     },
     {
-      question: "Which parts need to be serviced and how often ?",
+      question: "Comment devenir convoyeur pour Carvoy7 ?",
       answers: [
-        "We recommend replacing the battery every 3-4 years and wiping down the polycarbonate solar panel cover whenever it looks dirty.",
+        "Pour rejoindre notre réseau de convoyeurs professionnels, inscrivez-vous sur la plateforme, complétez le processus de vérification et fournissez vos justificatifs de conduite.",
       ],
     },
     {
-      question: "How much does the bin cost ?",
+      question: "Quelle est la politique d'annulation de Carvoy7 ?",
       answers: [
-        "We offer various configurations to meet the different needs of our customers.",
+        "Vous pouvez annuler une réservation dans les délais impartis pour un remboursement complet. Consultez notre politique d'annulation sur la plateforme pour plus de détails.",
       ],
     },
   ];
+
   return (
     <Box
       overflow="hidden"
@@ -114,7 +113,7 @@ const Questions = () => {
                 },
               }}
             >
-              Frequently asked questions
+              Questions fréquentes sur Carvoy7
             </Typography>
             {FAQ.map((item, index) => (
               <Accordion key={index} elevation={9}>

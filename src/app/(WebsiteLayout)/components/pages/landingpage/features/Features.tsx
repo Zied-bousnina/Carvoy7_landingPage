@@ -7,13 +7,9 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import {
-
   IconArrowsShuffle,
-
   IconRibbonHealth,
-
   IconRefresh,
-
   IconPigMoney,
 } from "@tabler/icons-react";
 import AnimationFadeIn from "../../../shared/animation/Animation";
@@ -30,32 +26,32 @@ const featuresData: FeaturesType[] = [
   {
     icon: <IconPigMoney width={30} height={30} strokeWidth={1.5} />,
     color: "primary",
-    title: "Cost Reduction",
-    subtext: "Maximizing Savings, Minimizing Expenses.",
+    title: "Optimisation des Coûts",
+    subtext: "Réduisez les coûts de transport et maximisez la rentabilité.",
   },
   {
     icon: <IconArrowsShuffle width={30} height={30} strokeWidth={1.5} />,
     color: "warning",
-    title: "Dynamic Routing",
-    subtext: "Streamlining Paths: The Power of Adaptive Navigation.",
+    title: "Itinéraires Efficaces",
+    subtext: "Des itinéraires adaptatifs pour le trafic et la demande en temps réel.",
   },
   {
     icon: <IconRibbonHealth width={30} height={30} strokeWidth={1.5} />,
     color: "success",
-    title: "CO2 Reduction",
-    subtext: "Towards a Greener Future: Cutting Carbon Emissions.",
+    title: "Durabilité",
+    subtext: "Réduire les émissions grâce à la technologie de routage intelligente.",
   },
   {
     icon: <IconRefresh width={30} height={30} strokeWidth={1.5} />,
     color: "error",
-    title: "Improved Cleanlines",
-    subtext: "Enhancing Hygiene and Neatness.",
+    title: "Gestion Améliorée de la Flotte",
+    subtext: "Suivi optimisé des véhicules pour une meilleure efficacité.",
   },
 ];
 
 const Features = () => {
   return (
-    <Box py={12} id="features"  sx={{backgroundColor:"#e5e7eb"}}>
+    <Box py={12} id="features" sx={{ backgroundColor: "#e5e7eb" }}>
       <Container maxWidth="lg">
         <FeaturesTitle />
         <AnimationFadeIn>
@@ -100,10 +96,11 @@ const Features = () => {
             textAlign="center"
             mb={1}
           >
-            Our solution significantly reduces the frequency of waste
-            collection, which allows you to save on fuel, labor, and fleet
-            maintenance costs. Together, our products can reduce your operating
-            costs by up to 80%.
+            Carvoy7 optimise les itinéraires de convois, vous permettant de
+            réduire les coûts de carburant, de main-d'œuvre et de maintenance de
+            flotte, tout en améliorant l'efficacité opérationnelle. Nos
+            solutions peuvent réduire vos coûts opérationnels jusqu'à 80%,
+            rendant le transport plus intelligent et durable.
           </Typography>
         </div>
       </Container>

@@ -17,8 +17,8 @@ const Banner = () => {
           </Grid>
         </Grid>
       </Container>
-      <BannerSlider />
-  
+      {/* <BannerSlider /> */}
+
       <div className=" w-full flex justify-center items-end ">
 
         <a className=" " href="#about">

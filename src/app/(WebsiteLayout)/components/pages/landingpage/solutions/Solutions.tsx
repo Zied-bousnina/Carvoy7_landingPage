@@ -22,30 +22,31 @@ export default function Solutions() {
 
   const SOLUTIONS: solution[] = [
     {
-      title: "Smart cities",
+      title: "Plateforme de Convoyage Numérique",
       description:
-        "In smart cities, smart traffic, smart lighting, and smart energy are all part of the picture, and smart waste management is an integral part of any smart city. Our offerings are fully stacked and vertically integrated so that everyone can see and feel the direct benefits of using our solution.",
-      icon: "heroicons:building-office-2",
+        "Carvoy7 offre une solution innovante de convoyage numérique pour connecter les utilisateurs à des services de transport de manière rapide, efficace et transparente. Notre technologie permet de simplifier le processus de convoyage et d'améliorer l'expérience utilisateur.",
+      icon: "heroicons:device-phone",
     },
     {
-      title: "Commercial establishments",
+      title: "Optimisation des Ressources",
       description:
-        "Whether it’s a shopping center, convention center, airport, or office complex, XGENBOX’s waste management solutions have helped customers save millions of dollars by reducing the cost of their waste management operations.",
-      icon: "heroicons:shopping-cart",
+        "Grâce à Carvoy7, optimisez l'utilisation de vos ressources de transport. Notre solution vous aide à gérer vos itinéraires de manière plus intelligente, réduisant les coûts et le temps de trajet.",
+      icon: "heroicons:refresh",
     },
     {
-      title: "Private organizations",
+      title: "Connectivité et Accessibilité",
       description:
-        "Whether it is a university campus, a theme park, a hospital, or a zoo, XGENBOX has provided customized deployments to clients with a myriad of different needs. The cost benefits and environmental benefits observed in large-scale municipal or commercial deployments are just as well replicated on a smaller scale.",
-      icon: "heroicons:building-library",
+        "Carvoy7 permet une connectivité sans faille entre les utilisateurs et les prestataires de services. L'accès à la plateforme est simple et sécurisé, garantissant une expérience utilisateur fluide.",
+      icon: "heroicons:link",
     },
     {
-      title: "Waste collectors",
+      title: "Support en Temps Réel",
       description:
-        "Whether it’s a family-owned hauler, a municipality, or a large waste management company responsible for multiple counties, our solutions have provided insights into operations, identified areas for efficiency improvement, and improved performance in several key areas of fleet management.",
-      icon: "heroicons:truck",
+        "Notre plateforme propose un support client en temps réel, garantissant une assistance immédiate pour toutes vos demandes de convoyage et vous offrant une tranquillité d'esprit tout au long du processus.",
+      icon: "heroicons:support",
     },
   ];
+
   return (
     <Box
       borderRadius="0"
@@ -59,13 +60,8 @@ export default function Solutions() {
     >
       <AnimateFadeIn>
         <>
-          <Typography
-            fontSize="18px"
-            fontWeight={500}
-            textAlign="center"
-            mb={1}
-          >
-            Exploring Diverse Features and Capabilities
+          <Typography fontSize="18px" fontWeight={500} textAlign="center" mb={1}>
+            Découvrez les Fonctionnalités de Carvoy7
           </Typography>
 
           <Typography
@@ -84,7 +80,7 @@ export default function Solutions() {
               },
             }}
           >
-            Who benefits from our solution ?
+            Qui bénéficie de Carvoy7 ?
           </Typography>
         </>
       </AnimateFadeIn>

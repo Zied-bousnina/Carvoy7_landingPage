@@ -17,37 +17,35 @@ export default function Footer() {
         p: 6,
       }}
     >
-
       <Container maxWidth="lg">
-
         <Grid container spacing={5}>
-        <Grid item xs={12} sm={3}>
-            <div >
+          <Grid item xs={12} sm={3}>
+            <div>
               <Logo />
             </div>
           </Grid>
           <Grid item xs={12} sm={3}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              About Us
+              À Propos de Nous
             </Typography>
             <div className="flex items-center gap-2 text-xl mt-2">
               <Icon icon="heroicons:map-pin" />
               <Typography variant="body2">
-                Z4, Saint Gobain, Jbel Jloud
+                140bis Rue de Rennes, Paris, France 75006
               </Typography>
             </div>
             <div className="flex items-center gap-2 text-xl mt-2">
               <Icon icon="heroicons:phone" />
-              <Typography variant="body2">+216 56 332 666</Typography>
+              <Typography variant="body2">+33 56 981 500</Typography>
             </div>
             <div className="flex items-center gap-2 text-xl mt-2">
               <Icon icon="heroicons:envelope" />
-              <Typography variant="body2">direction@xgenbox.com</Typography>
+              <Typography variant="body2">direction@Carvoy7.com</Typography>
             </div>
           </Grid>
           <Grid item xs={12} sm={3}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Support{" "}
+              Support
             </Typography>
             <Link href="#">
               <Typography
@@ -56,7 +54,7 @@ export default function Footer() {
                 fontSize={13}
                 mt={1}
               >
-                Help Center{" "}
+                Centre d'Aide
               </Typography>
             </Link>
             <Link href="#">
@@ -66,7 +64,7 @@ export default function Footer() {
                 fontSize={13}
                 mt={1}
               >
-                Terms Of Service
+                Conditions d'Utilisation
               </Typography>
             </Link>
             <Link href="#">
@@ -76,7 +74,7 @@ export default function Footer() {
                 fontSize={13}
                 mt={1}
               >
-                Legal{" "}
+                Mentions Légales
               </Typography>
             </Link>
             <Link href="#">
@@ -86,7 +84,7 @@ export default function Footer() {
                 fontSize={13}
                 mt={1}
               >
-                Privacy Policy{" "}
+                Politique de Confidentialité
               </Typography>
             </Link>
             <Link href="#">
@@ -96,19 +94,19 @@ export default function Footer() {
                 fontSize={13}
                 mt={1}
               >
-                Status{" "}
+                Statut
               </Typography>
             </Link>
           </Grid>
           <Grid item xs={12} sm={3}>
             <Typography variant="h6" color="text.primary" gutterBottom>
-              Follow Us
+              Suivez-Nous
             </Typography>
             <div className="flex items-center gap-4">
               <Link href="https://www.facebook.com/" color="inherit">
                 <Facebook />
               </Link>
-              <Link href="https://www.instagram.com/" color="inherit">
+              <Link href="https://www.instagram.com/carvoy7/" color="inherit">
                 <Instagram />
               </Link>
               <Link href="https://www.twitter.com/" color="inherit">
@@ -121,9 +119,9 @@ export default function Footer() {
           <Typography variant="body2" color="text.secondary" align="center">
             {"Copyright © "}
             {new Date().getFullYear()}
-            <span className="font-bold text-[#3c976e]">{" XGENBOX "}</span>
+            <span className="font-bold text-[#3c976e]">{" CarVoy7 "}</span>
             <Link color="inherit" href="#">
-              All rights reserved
+              Tous droits réservés
             </Link>
             {"."}
           </Typography>

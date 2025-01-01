@@ -33,14 +33,14 @@ const TopCards = () => {
       iconsm: <Icon icon="heroicons:check-circle" width="30" height="30" />,
     },
     {
-      title: "Features",
+      title: "Fonctionnalités",
       href: "#",
       color: "error",
       icon: "/images/backgrounds/top-error-shape.png",
       iconsm: <Icon icon="heroicons:queue-list" width="30" height="30" />,
     },
     {
-      title: "Frequently Asked Questions",
+      title: "Questions fréquemment posées",
       href: "#",
       color: "info",
       icon: "/images/backgrounds/top-info-shape.png",
@@ -65,13 +65,8 @@ const TopCards = () => {
     >
       <AnimationFadeIn>
         <>
-          <Typography
-            fontSize="18px"
-            fontWeight={500}
-            textAlign="center"
-            mb={1}
-          >
-            Exploring Diverse Features and Capabilities
+          <Typography fontSize="18px" fontWeight={500} textAlign="center" mb={1}>
+            Exploration des différentes fonctionnalités et capacités
           </Typography>
 
           <Typography
@@ -90,7 +85,7 @@ const TopCards = () => {
               },
             }}
           >
-            Overview{" "}
+            Aperçu
           </Typography>
           <Grid container spacing={3}>
             {STATS.map((stat, i) => (
@@ -137,7 +132,7 @@ const TopCards = () => {
                       }}
                       endIcon={<KeyboardArrowRightIcon />}
                     >
-                      Learn More
+                      En savoir plus
                     </Button>
                   </CardContent>
                 </Card>

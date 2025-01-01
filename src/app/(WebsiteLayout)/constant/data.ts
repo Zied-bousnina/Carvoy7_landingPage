@@ -12,13 +12,13 @@ interface chipType {
 
 const ProductsAppsLink: appsLinkType[] = [
   {
-    href: "/smart-box",
+    href: "/",
     title: "Smart Box",
     subtext: "Discover more details here",
     avatar: "/images/svgs/icon-dd-mobile.svg",
   },
   {
-    href: "/fleet-management-platform",
+    href: "/",
     title: "Fleet Management Platform",
     subtext: "Discover more details here",
     avatar: "/images/svgs/icon-dd-application.svg",
@@ -26,25 +26,25 @@ const ProductsAppsLink: appsLinkType[] = [
 ];
 const MarketsAppsLink: appsLinkType[] = [
   {
-    href: "/smart-cities",
+    href: "/",
     title: "Smart Cities",
     subtext: "Discover more details here",
     avatar: "/images/icons8/smart-city.png",
   },
   {
-    href: "/commercial-establishments",
+    href: "/",
     title: "Commercial Establishment",
     subtext: "Discover more details here",
     avatar: "/images/svgs/icon-dd-cart.svg",
   },
   {
-    href: "/private-organizations",
+    href: "/",
     title: "Private Organization",
     subtext: "Discover more details here",
     avatar: "/images/icons8/private-organization.png",
   },
   {
-    href: "/waste-collectors",
+    href: "/",
     title: "Waste Collectors",
     subtext: "Discover more details here",
     avatar: "/images/icons8/waste-collectors.png",
@@ -53,13 +53,13 @@ const MarketsAppsLink: appsLinkType[] = [
 
 const CompanyAppsLink: appsLinkType[] = [
   {
-    href: "/about-company",
+    href: "/",
     title: "About Company",
     subtext: "Discover more details here",
     avatar: "/images/icons8/company.png",
   },
   {
-    href: "/partnership-opportunities",
+    href: "/",
     title: "Partnership Opportunities",
     subtext: "Discover more details here",
     avatar: "/images/icons8/partnership.png",
@@ -67,19 +67,19 @@ const CompanyAppsLink: appsLinkType[] = [
 ];
 const ContactAppsLink: appsLinkType[] = [
   {
-    href: "/contact-details",
+    href: "/",
     title: "Contact Details",
     subtext: "Discover more details here",
     avatar: "/images/svgs/icon-dd-chat.svg",
   },
   {
-    href: "/quote-request",
+    href: "/",
     title: "Quote Request",
     subtext: "Discover more details here",
     avatar: "/images/icons8/quote.png",
   },
   {
-    href: "/technical-assistance",
+    href: "/",
     title: "Technical Assistance",
     subtext: "Discover more details here",
     avatar: "/images/icons8/technical-assistance.png",

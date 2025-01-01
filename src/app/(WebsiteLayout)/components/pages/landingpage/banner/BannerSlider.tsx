@@ -1,6 +1,6 @@
 import React from "react";
 import Box from '@mui/material/Box';
-import bannerbgImg1 from "public/images/pages/landingpage/slider/bin.png";
+import bannerbgImg1 from "public/images/svgs/logo_carvoy.svg";
 
 import Image from "next/image";
 

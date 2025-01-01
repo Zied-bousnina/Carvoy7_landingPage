@@ -17,6 +17,7 @@ import LoginTwoToneIcon from "@mui/icons-material/LoginTwoTone";
 import Link from "next/link";
 import RegisterTypeDialog from "../../../ui/dialog/auth/registerType";
 import { useSelector } from "@/store/hooks";
+import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
 const LpHeader = () => {
   const AppBarStyled = styled(AppBar)(({ theme }) => ({
     justifyContent: "center",
@@ -90,19 +91,33 @@ const LpHeader = () => {
           {lgUp ?auth.isLoggedIn?<>hello</>: (
             <>
               <Stack spacing={1} direction="row" alignItems="center" gap={1}>
-                <Navigations />
+                {/* <Navigations /> */}
               </Stack>
               <Stack direction="row" alignItems="center" gap={1}>
-                <Link href="/login">
-                  <Button
-                    color="primary"
-                    variant="contained"
-                    startIcon={<LoginTwoToneIcon />}
-                  >
-                    Login
-                  </Button>
-                </Link>
-                <RegisterTypeDialog isBtn={true} />
+              <Link  href="https://carvoy-7.vercel.app/" passHref>
+  <Button
+    color="primary"
+    variant="contained"
+    startIcon={<LoginTwoToneIcon />}
+    component="a" // This makes the button a clickable link
+    target="_blank" // Opens the link in a new tab
+    rel="noopener noreferrer" // Recommended for security reasons
+  >
+    Se connecter
+  </Button>
+</Link>
+<Link  href="https://carvoy-7.vercel.app/" passHref>
+  <Button
+    color="primary"
+    variant="outlined"
+    startIcon={<AccountCircleTwoToneIcon />}
+    component="a" // This makes the button a clickable link
+    target="_blank" // Opens the link in a new tab
+    rel="noopener noreferrer" // Recommended for security reasons
+  >
+    S'inscrire
+  </Button>
+</Link>
               </Stack>
             </>
           ) : null}
