@@ -119,7 +119,7 @@ export default function Footer() {
           <Typography variant="body2" color="text.secondary" align="center">
             {"Copyright © "}
             {new Date().getFullYear()}
-            <span className="font-bold text-[#3c976e]">{" CarVoy7 "}</span>
+            <span className="font-bold text-[#111c2d]">{" CarVoy7 "}</span>
             <Link color="inherit" href="#">
               Tous droits réservés
             </Link>
