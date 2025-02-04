@@ -106,7 +106,7 @@ const LpHeader = () => {
     Se connecter
   </Button>
 </Link>
-<Link  href="https://carvoy-7.vercel.app/" passHref>
+<Link  href="https://carvoy-7.vercel.app/register" passHref>
   <Button
     color="primary"
     variant="outlined"

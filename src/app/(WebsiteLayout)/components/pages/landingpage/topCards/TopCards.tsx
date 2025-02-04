@@ -10,7 +10,7 @@ import Image from "next/image";
 import { Icon } from "@iconify/react";
 import { Button } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import AnimationFadeIn from "../../../shared/animation/Animation";
+
 
 const TopCards = () => {
   const customizer = useSelector((state: AppState) => state.customizer);
@@ -63,7 +63,7 @@ const TopCards = () => {
         },
       }}
     >
-      <AnimationFadeIn>
+
         <>
           <Typography fontSize="18px" fontWeight={500} textAlign="center" mb={1}>
             Exploration des différentes fonctionnalités et capacités
@@ -140,7 +140,7 @@ const TopCards = () => {
             ))}
           </Grid>
         </>
-      </AnimationFadeIn>
+
     </Box>
   );
 };

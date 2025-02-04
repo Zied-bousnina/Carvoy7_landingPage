@@ -31,8 +31,8 @@ Landingpage.layout = "Blank";
 //* original component
 /*
 export default function Landingpage () {
-  return ( 
-    
+  return (
+
     <PageContainer title="Landingpage" description="this is Landingpage">
       <LpHeader />
       <Banner />
@@ -40,7 +40,7 @@ export default function Landingpage () {
       <Features />
       <Testimonial />
       <C2a2 />
-      <Footer /> 
+      <Footer />
     </PageContainer>
   );
 };

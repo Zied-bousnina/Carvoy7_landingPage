@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2 text-xl mt-2">
               <Icon icon="heroicons:envelope" />
-              <Typography variant="body2">direction@Carvoy7.com</Typography>
+              <Typography variant="body2">contact@carvoy7.com</Typography>
             </div>
           </Grid>
           <Grid item xs={12} sm={3}>
@@ -77,7 +77,7 @@ export default function Footer() {
                 Mentions Légales
               </Typography>
             </Link>
-            <Link href="#">
+            <Link href="/privacy-policy">
               <Typography
                 variant="body2"
                 color="text.secondary"
@@ -120,7 +120,7 @@ export default function Footer() {
             {"Copyright © "}
             {new Date().getFullYear()}
             <span className="font-bold text-[#111c2d]">{" CarVoy7 "}</span>
-            <Link color="inherit" href="#">
+            <Link color="inherit" href="/TousDroitsReserves">
               Tous droits réservés
             </Link>
             {"."}

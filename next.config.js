@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // output: 'export',
   modularizeImports: {
     "@mui/icons-material": {
       transform: "@mui/icons-material/{{member}}",
@@ -9,7 +10,8 @@ const nextConfig = {
     //   transform: '@mui/material/{{member}}',
     // },
   },
-  
+
+
 };
 
 module.exports = nextConfig;
